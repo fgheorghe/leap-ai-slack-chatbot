@@ -7,3 +7,7 @@ This bot _only_ works on channels (not dms) and _must_ be invited to such channe
 To avoid exhausting your API credits, by default, it will use a dummy response.
 
 Uncomment const result = await leap.generate.generateImage({ and comment the debug request for real API calls.
+
+It can be used with the following slack command: /prompt prompt
+
+Requires ngrok for slack callbacks.
