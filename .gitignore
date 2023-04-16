@@ -1,0 +1,6 @@
+*.png
+.env
+node_modules/
+.idea
+Makefile
+package-lock.json
